@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black !important;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width:80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.navbar-container li{
+color: rgb(255, 255, 255);
+list-style: none;
+display: inline;
+padding: 20px;
+font-size: 20px;
+}
+
+.broadcast-icons img{
+  width:40px;
+  height:40px;
+  margin: 5px;
+}
+.tvshow-container{
+  width:100%;
+  overflow-x: hidden;
+}
+
+.navbar-active{
+  color: rgb(180, 57, 9);
+  margin: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar-inactive{
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h3{
+  color:rgb(255, 255, 255) !important;
+  margin: 50px;
+}
+.tvshow-container img{
+  width:250px;
+  height:350px;
+  margin: 10px;
+}
